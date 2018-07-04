@@ -1,0 +1,58 @@
+body{
+    background: #f8f8f8;
+}
+h1{
+    text-align: center;
+}
+.menu{
+    background-color: burlywood;
+    text-align: center;
+    list-style-type: none;
+    text-transform: uppercase;
+}
+a{
+    text-decoration: none;
+    font-size: 16px;
+}
+.caption-product{
+    color:black;
+    font-size: 18px;
+    font-weight: 400;
+    background-color: #eaeaea;
+}
+.shot-description{
+    color:#707070;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 16px;
+}
+.detailed-description > p{
+    color:#484343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+.characteristic{
+    list-style-image: url("image/yes.png");
+
+}
+.specifications-item{
+    background-color: antiquewhite;
+}
+.contact-form{
+    text-align: center;
+}
+input[type="text"]{
+    color: darkblue;
+    font-size: 16px;
+}
+textarea[name="question"]{
+    color: darkblue;
+    font-size: 18px;
+    cols:25;
+
+}
+
+
+
