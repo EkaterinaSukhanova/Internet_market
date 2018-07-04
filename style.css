@@ -50,8 +50,7 @@ input[type="text"]{
 textarea[name="question"]{
     color: darkblue;
     font-size: 18px;
-    cols:25;
-
+    font-style: italic;
 }
 
 
