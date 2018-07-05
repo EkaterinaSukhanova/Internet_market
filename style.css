@@ -4,21 +4,28 @@ body{
 h1{
     text-align: center;
 }
-.menu{
-    background-color: burlywood;
+.header{
     text-align: center;
+}
+.menu{
     list-style-type: none;
     text-transform: uppercase;
+}
+.header img{
+    width: 300px;
 }
 a{
     text-decoration: none;
     font-size: 16px;
 }
+.menu li a:hover{
+    color: cornflowerblue;
+}
 .caption-product{
     color:black;
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 400;
-    background-color: #eaeaea;
+    background-color: rgba(112,112,112,0.3);
 }
 .shot-description{
     color:#707070;
@@ -34,24 +41,57 @@ a{
     text-align: left;
 }
 .characteristic{
-    list-style-image: url("image/yes.png");
+    list-style-image: url("image/sound.png");
 
 }
 .specifications-item{
-    background-color: antiquewhite;
+    background-color: rgba(112,112,112,0.1);
 }
 .contact-form{
     text-align: center;
 }
 input[type="text"]{
-    color: darkblue;
+    color: #707070;
     font-size: 16px;
 }
+input[type="text"]:focus{
+    color: brown;
+    background-color: bisque;
+}
+input[type="text"]:first-of-type{
+    text-transform: capitalize;
+}
 textarea[name="question"]{
-    color: darkblue;
+    color: #707070;
     font-size: 18px;
     font-style: italic;
 }
-
+textarea[name="question"]:first-of-type{
+    text-transform: capitalize;
+}
+.main-product-photo{
+    outline: 2px solid #666;
+}
+.main-product-photo:hover{
+    outline: none;
+}
+.image-link{
+    width: 300px;
+}
+.detailed-text:first-letter{
+    font-family: "URW Gothic L";
+    font-size: 28px;
+    color: #707070;
+}
+.table-characteristic{
+    width: 350px;
+    height: 120px;
+    border: 1px solid #707070;
+    border-collapse: collapse;
+}
+.table-characteristic td{
+    border: 1px solid #707070;
+    padding-left: 5px;
+}
 
 
