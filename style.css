@@ -109,6 +109,9 @@ button[name="buy"]:hover{
 button[name="buy"]:active{
     background-color: aquamarine;
 }
+.full-description{
+    clear: both;
+}
 .contact-form{
     text-align: center;
 }
