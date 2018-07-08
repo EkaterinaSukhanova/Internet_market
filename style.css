@@ -102,10 +102,12 @@ button[name="buy"]{
     width: 120px;
     height: 30px;
     background-color: #f8f8f8;
-
 }
 button[name="buy"]:hover{
     color: red;
+}
+button[name="buy"]:active{
+    background-color: aquamarine;
 }
 .contact-form{
     text-align: center;
